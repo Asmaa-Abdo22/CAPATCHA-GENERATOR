@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPTCHA GENERATOR</title>
+    <!-- &  --------------------FONT AWESOME CSS FILE------------- -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- &  --------------------BOOTSTRAP CSS FILE--------------- -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- &  --------------------CUSTOM CSS FILE---------------- -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body >
+    <div
+    class="wrapper min-vh-100 d-flex justify-content-center align-items-center"
+  >
+    <div
+      class="bg-white w-35 rounded p-3 py-5 d-flex flex-column gap-3 justify-content-center align-items-center"
+    >
+      <h2 class="text-uppercase text-main fw-bold">Captcha Generator</h2>
+
+      <div class="d-flex gap-2 w-75 mx-auto">
+        <div class="capatcha-box w-100 position-relative">
+          <img
+            src="https://30daysofjs.netlify.app/97%20-%20captcha%20generator/assets/bg6.png"
+            alt="background"
+            class="h-100 w-100 object-fit-cover rounded"
+          />
+          <span class="capatcha-text text-white" id="captchaText"></span>
+        </div>
+        <button type="button" class="btn btn-main" id="try">
+          <i class="fa-solid fa-arrow-rotate-right"></i>
+        </button>
+      </div>
+
+      <form class="w-75 mx-auto position-relative">
+        <input
+          type="text"
+          class="form-control border-main"
+          placeholder="Enter Capatcha"
+          id="input"
+        />
+        <button class="btn btn-main" id="check" type="button">Check</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- &  --------------------BOOTSTRAP JS FILE---------------- -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- &  --------------------CUSTOM JS FILE---------------- -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
